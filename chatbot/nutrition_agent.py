@@ -6,6 +6,7 @@ from agents import (
     function_tool,
 )
 
+# See the below three lines for changes
 chroma_path = Path(__file__).parent.parent / "chroma"
 chroma_client = chromadb.PersistentClient(path=str(chroma_path))
 nutrition_db = chroma_client.get_collection(name="nutrition_db")
