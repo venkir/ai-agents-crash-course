@@ -1,19 +1,27 @@
 import chainlit as cl
 import dotenv
-from openai.types.responses import ResponseTextDeltaEvent
+from openai.types.responses import ResponseTextDeltaEvent # Import the event type for streaming
 
-from agents import Runner
+from agents import Runner, SQLiteSession
 from nutrition_agent import nutrition_agent
 
 dotenv.load_dotenv()
 
+# To implement memory, import SQLiteSession and create a session
+# Also we need to define a async on_start function to initialize the session - which will serve as memory for the agent
+@cl.on_chat_start
+async def on_chat_start():
+    session = SQLiteSession("conversation_history")
+    cl.user_session.set("agent_session", session)
 
 @cl.on_message
 async def on_message(message: cl.Message):
-
+    # Create a session to store past conversations  
+    session = cl.user_session.get("agent_session")
     result = Runner.run_streamed(
         nutrition_agent,
         message.content,
+        session=session,
     )
 
     msg = cl.Message(content="")
@@ -34,10 +42,9 @@ async def on_message(message: cl.Message):
         ):
             with cl.Step(name=f"{event.data.item.name}", type="tool") as step:
                 step.input = event.data.item.arguments
-                print(
-                    f"\nTool call: {
-                        event.data.item.name} with args: {
-                        event.data.item.arguments}"
+                print("\nTool call: {} with args:, {}".format(
+                        event.data.item.name,
+                        event.data.item.arguments)
                 )
 
     await msg.update()
