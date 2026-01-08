@@ -13,7 +13,8 @@ dotenv.load_dotenv()
 async def on_chat_start():
     session = SQLiteSession("conversation_history")
     cl.user_session.set("agent_session", session)
-    # This is the only change in this file compared to the chatbot/agentic_chatbot.py file
+    # CRITICAL: Must connect MCP server before agents try to use it
+    # This initializes the connection that agents will use for tool calls
     await exa_search_mcp.connect()
 
 

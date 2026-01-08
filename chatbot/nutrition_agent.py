@@ -63,7 +63,7 @@ exa_search_mcp = MCPServerStreamableHttp(
         "timeout": 30,
     },
     client_session_timeout_seconds=30,
-    cache_tools_list=True,
+    cache_tools_list=False,    # Changed to False to always get fresh search results and to prevent premature tool listing
     max_retry_attempts=1,
 )
 
