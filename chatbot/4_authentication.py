@@ -5,7 +5,7 @@ import os
 from openai.types.responses import ResponseTextDeltaEvent
 
 from agents import Runner, SQLiteSession
-from nutrition_agent import nutrition_agent
+from nutrition_agent import nutrition_agent, exa_search_mcp
 
 dotenv.load_dotenv()
 
@@ -14,6 +14,8 @@ dotenv.load_dotenv()
 async def on_chat_start():
     session = SQLiteSession("conversation_history")
     cl.user_session.set("agent_session", session)
+    # CRITICAL: Must connect MCP server before agents try to use it
+    await exa_search_mcp.connect()
 
 
 @cl.on_message
