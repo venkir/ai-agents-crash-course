@@ -1,0 +1,64 @@
+2026-01-08T18:03:47.048003975Z ==> Deploying...
+2026-01-08T18:04:26.081246298Z ==> Running 'cd chatbot && chainlit run 4_authentication.py --port 10000 --host 0.0.0.0'
+2026-01-08T18:04:36.402576328Z 2026-01-08 18:04:36 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-08T18:04:37.075646108Z 2026-01-08 18:04:37 - Your app is available at http://0.0.0.0:10000
+2026-01-08T18:04:48.861771808Z ==> Your service is live 🎉
+2026-01-08T18:04:48.900765775Z ==> 
+2026-01-08T18:04:48.933970202Z ==> ///////////////////////////////////////////////////////////
+2026-01-08T18:04:48.977999448Z ==> 
+2026-01-08T18:04:49Z clientIP="34.82.29.197" requestID="19e86e9c-b015-4c63" responseTimeMS=3 responseBytes=886 userAgent="Go-http-client/2.0"
+2026-01-08T18:04:49.065261901Z ==> Available at your primary URL https://venki-calorie-advisor.onrender.com
+2026-01-08T18:04:49.171509452Z ==> 
+2026-01-08T18:04:49.225801978Z ==> ///////////////////////////////////////////////////////////
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="77d6d5b5-39f3-4ea2" responseTimeMS=2 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="00134478-2e2a-49d7" responseTimeMS=3 responseBytes=886 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="de807782-b889-49e2" responseTimeMS=9 responseBytes=317 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="22944fd9-bbdb-4abb" responseTimeMS=11 responseBytes=240 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="a9a2f159-3d23-4a10" responseTimeMS=1 responseBytes=311 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="176cdffc-3025-4ba4" responseTimeMS=2 responseBytes=1249 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="360360bc-8a47-4f4c" responseTimeMS=2 responseBytes=230 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="9bb7ee9e-12e5-421f" responseTimeMS=2 responseBytes=322 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="ebd4daba-9932-438b" responseTimeMS=5 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52Z clientIP="76.132.166.68" requestID="0d689c7f-b241-484e" responseTimeMS=2 responseBytes=469 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:52.459086696Z 2026-01-08 18:07:52 - Translated markdown file for en-US not found. Defaulting to chainlit.md.
+2026-01-08T18:07:53Z clientIP="76.132.166.68" requestID="da095bcc-fd06-4f9b" responseTimeMS=9 responseBytes=225 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:53Z clientIP="76.132.166.68" requestID="2fe8b5fa-4b2b-4eb1" responseTimeMS=1 responseBytes=322 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:53Z clientIP="76.132.166.68" requestID="f117d35b-1dd1-42b4" responseTimeMS=4 responseBytes=209 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:07:57Z clientIP="76.132.166.68" requestID="426008d7-8608-4e38" responseTimeMS=2 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:03.326348358Z 2026-01-08 18:08:03 - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 400 Bad Request"
+2026-01-08T18:08:03.326598043Z 2026-01-08 18:08:03 - [non-fatal] Tracing client error 400: {
+2026-01-08T18:08:03.326608563Z   "error": {
+2026-01-08T18:08:03.326614793Z     "message": "Invalid type for 'data[1].span_data.result': expected an array of strings, but got null instead.",
+2026-01-08T18:08:03.326618513Z     "type": "invalid_request_error",
+2026-01-08T18:08:03.326652334Z     "param": "data[1].span_data.result",
+2026-01-08T18:08:03.326658814Z     "code": "invalid_type"
+2026-01-08T18:08:03.326661764Z   }
+2026-01-08T18:08:03.326664664Z }
+2026-01-08T18:08:16Z clientIP="76.132.166.68" requestID="989f2607-302b-4bde" responseTimeMS=1 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:16Z clientIP="76.132.166.68" requestID="8fae0934-3aab-40b8" responseTimeMS=2 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:25Z clientIP="76.132.166.68" requestID="bbf90eaa-5365-49ed" responseTimeMS=2 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:25Z clientIP="76.132.166.68" requestID="7a74c49a-7fa0-48c2" responseTimeMS=2 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="34a1f14a-72d3-47e9" responseTimeMS=9 responseBytes=886 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="5e340b76-9c8f-4290" responseTimeMS=1 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="51147fac-d2af-44c2" responseTimeMS=4 responseBytes=230 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="f9772599-76de-4461" responseTimeMS=4 responseBytes=317 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="a19c81d3-41a5-4954" responseTimeMS=2 responseBytes=1249 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45Z clientIP="76.132.166.68" requestID="365ca882-4e5d-43e8" responseTimeMS=7 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:45.791394884Z 2026-01-08 18:08:45 - Translated markdown file for en-US not found. Defaulting to chainlit.md.
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="f6322c96-2a80-4748" responseTimeMS=1 responseBytes=209 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="c6e985a9-97c7-409d" responseTimeMS=1 responseBytes=322 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="de3244eb-1720-44b3" responseTimeMS=1 responseBytes=313 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="79b53f83-2b8c-47bd" responseTimeMS=3 responseBytes=209 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="2f358ccb-7422-423d" responseTimeMS=1 responseBytes=322 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="b6919424-6edc-4142" responseTimeMS=1 responseBytes=469 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="c1ca1004-1665-4dd8" responseTimeMS=4 responseBytes=225 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:08:46Z clientIP="76.132.166.68" requestID="9c548c45-ece3-4ac8" responseTimeMS=5 responseBytes=240 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:09:03Z clientIP="76.132.166.68" requestID="" responseTimeMS=17442 responseBytes=0 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:09:45.285981406Z ==> Detected service running on port 10000
+2026-01-08T18:09:45.410421735Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2026-01-08T18:10:09Z clientIP="76.132.166.68" requestID="617b424c-dab9-4cd5" responseTimeMS=2 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:10:09Z clientIP="76.132.166.68" requestID="c772fb55-82bb-44f7" responseTimeMS=1 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:12:42Z clientIP="76.132.166.68" requestID="8e052ae8-8339-4db8" responseTimeMS=2 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:12:42Z clientIP="76.132.166.68" requestID="fac44e91-3f37-41d5" responseTimeMS=3 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:26:24Z clientIP="76.132.166.68" requestID="86c1c253-a7e2-4479" responseTimeMS=5 responseBytes=271 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08T18:26:24Z clientIP="76.132.166.68" requestID="6e779a47-d2f5-44e4" responseTimeMS=4 responseBytes=2111 userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"

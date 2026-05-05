@@ -59,7 +59,7 @@ def calorie_lookup_tool(query: str, max_results: int = 3) -> str:
 exa_search_mcp = MCPServerStreamableHttp(
     name="Exa Search MCP",
     params={
-        "url": f"https://mcp.exa.ai/mcp?{os.environ.get('EXA_API_KEY')}",
+        "url": f"https://mcp.exa.ai/mcp?exaApiKey={os.environ.get('EXA_API_KEY')}",
         "timeout": 30,
     },
     client_session_timeout_seconds=30,
